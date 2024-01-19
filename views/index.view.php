@@ -1,1 +1,1 @@
-<h1>Ich bin die index.view.php-Datei...</h1>
+<h2>Temperatur in Budapest: <?php echo e($weather->temperature); ?>°C.</h2>
