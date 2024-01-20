@@ -9,7 +9,7 @@ use App\Weather\WeatherContract;
 // Backend team erstellt diesen part.
 class FakeWeatherFetcher implements  WeatherContract
 {
-    public function getWeatherForCity(string $cityName): WeatherInfo
+    public function getWeatherForCity(string $cityName): ?WeatherInfo
     {
         return new WeatherInfo(21, false);
     }
